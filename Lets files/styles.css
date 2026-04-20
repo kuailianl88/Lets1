@@ -1,0 +1,596 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+    padding: 0;
+}
+
+img {
+  border-style: none;
+}
+:root {
+  --color-primary: #0f3866;
+  --hot-area: 12px;
+  --source-han-sans-cn: "source-han-sans-simplified-c",sans-serif;
+}
+
+html {
+  font-size: 100px;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-albert),var(--source-han-sans-cn),system-ui,-apple-system,"PingFang SC",Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  cursor: default;
+}
+
+.kfgQdZ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px;
+}
+
+.PdXKF {
+  max-width: 1504px;
+  margin: 0px auto;
+  padding: 0px 32px;
+}
+
+.kgyUCP {
+  max-width: 1440px;
+  height: auto;
+  margin: 0px;
+  padding: 0.8rem 0px 1rem;
+  border-radius: 0.46rem;
+  background: rgb(240, 244, 247) url("banner-bg.png") center center / cover no-repeat;
+}
+
+.lnbLor {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-family: var(--source-han-sans-cn);
+}
+
+.bcyFYf {
+  color: rgb(15, 56, 102);
+  font-size: 0.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 2.4px;
+}
+
+.bcyFYf > h2 {
+  color: rgb(15, 56, 102);
+  font-size: 0.42rem;
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 0.28rem;
+}
+
+.bcyFYf > p {
+  margin: 0px;
+}
+
+.ivHqWN {
+  color: rgb(255, 255, 255);
+  font-size: 0.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.43rem;
+  letter-spacing: 4px;
+  border-radius: 19px;
+  background: rgb(15, 56, 102);
+  padding: 12px 24px;
+  margin-top: 36px;
+}
+
+.ivHqWN .highlight {
+  color: rgb(255, 212, 0);
+  font-weight: 400;
+}
+
+.KVCFW {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ldQSTJ {
+  margin-top: 0.4rem;
+  position: relative;
+  width: 6.86rem;
+  height: 4.62rem;
+}
+
+.eLIVCj {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.icmWdF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.08rem;
+  width: 1.16rem;
+  height: 1.16rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid rgb(15, 56, 102);
+  margin-top: 0.36rem;
+  cursor: pointer;
+}
+
+.icmWdF > img {
+  width: 0.38rem;
+  height: 0.38rem;
+}
+
+.icmWdF > span {
+  color: rgb(15, 56, 102);
+  font-size: 0.14rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hRqaas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 14.4rem;
+  border-radius: 0.32rem;
+  padding: 1rem 0px;
+  overflow: hidden;
+  margin-top: 0.66rem;
+  background: url("promotion-bg.webp") center center / cover no-repeat;
+}
+
+.hRqaas > h2 {
+  margin: 0px;
+  color: rgb(15, 56, 102);
+  font-size: 0.42rem;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.hRqaas > h2 .price {
+  position: relative;
+  padding: 0px 6px;
+  margin-left: -20px;
+  z-index: 9;
+}
+
+.hRqaas > h2 .price::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.26rem;
+  background: rgb(255, 222, 55);
+  bottom: -0.1rem;
+  left: 0px;
+  z-index: -1;
+}
+
+.eJAcsQ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 12.55rem;
+  margin: 1rem auto 0px;
+  cursor: default;
+}
+
+.lhvAMX {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 100px;
+  background: rgb(234, 244, 255);
+}
+
+.eJAcsQ > h2 {
+  margin: 0.4rem 0px 0.8rem;
+  overflow: hidden;
+  color: rgb(15, 56, 102);
+  text-overflow: ellipsis;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.gfJSqQ .section-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(50% - 5.19rem);
+}
+
+.eJAcsQ .section-content {
+  margin: 0px 0.32rem;
+}
+
+.eaxALX {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 3.46rem;
+  border-radius: 0.12rem;
+  background: rgb(249, 249, 249);
+  padding: 0.6rem 0px 0.78rem;
+  margin-bottom: 0.8rem;
+}
+
+.eaxALX .icon {
+  position: relative;
+  width: 1.36rem;
+  height: 1.36rem;
+}
+
+.eaxALX > h4 {
+  margin: 0.28rem 0px 0.2rem;
+  text-align: center;
+  color: rgb(15, 56, 102);
+  font-size: 0.2rem;
+  font-weight: 700;
+  line-height: 0.24rem;
+}
+
+.eaxALX > p {
+  margin: 0px;
+  color: rgb(63, 102, 145);
+  text-align: center;
+  font-size: 0.14rem;
+  font-weight: 400;
+  line-height: 0.25rem;
+}
+
+.bzDJVO {
+  margin-top: 0.2rem;
+}
+
+.eJAcsQ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 12.55rem;
+  margin: 1rem auto 0px;
+    margin-top: 1rem;
+  cursor: default;
+}
+
+.lhvAMX {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 100px;
+  background: rgb(234, 244, 255);
+}
+
+.bzDJVO > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.eJAcsQ > h2 {
+  margin: 0.4rem 0px 0.8rem;
+    margin-bottom: 0.8rem;
+  overflow: hidden;
+  color: rgb(15, 56, 102);
+  text-overflow: ellipsis;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bzDJVO .section-content {
+  max-width: 860px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.bnKgdQ > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  width: 200px;
+  height: 140px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.bnKgdQ > a .icon {
+  position: relative;
+  width: 46px;
+  height: 46px;
+}
+
+.bnKgdQ > a > h4 {
+  margin: 0px;
+  color: rgb(15, 56, 102);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.lhvAMX > span {
+  color: rgb(19, 132, 255);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.czWRiO {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+  height: 200px;
+  margin-top: 1.2rem;
+  background-color: rgb(0, 21, 44);
+}
+
+.czWRiO > p {
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: var(--source-han-sans-cn);
+}
+
+
+/* 滑块验证弹窗样式 */
+.verification-modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.verification-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 90vw;
+  overflow: hidden;
+}
+
+.verification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.verification-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+.puzzle-container {
+  padding: 24px;
+}
+
+/* 滑块容器 */
+.slider-container {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.slider-track {
+  width: 100%;
+  height: 50px;
+  background: #f0f0f0;
+  border-radius: 25px;
+  position: relative;
+  border: 2px solid #ddd;
+  overflow: hidden;
+}
+
+/* 蓝色轨迹 */
+.slider-track::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #87ceeb, #5dade2);
+  border-radius: 25px;
+  transition: none; /* 完全移除过渡动画，让轨迹立即响应 */
+  z-index: 1;
+}
+
+.slider-handle {
+  width: 46px;
+  height: 46px;
+  background: #007bff;
+  border-radius: 23px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.slider-handle:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.slider-handle .arrow {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slider-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+  pointer-events: none;
+  z-index: 1;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+/* 拖动状态 */
+.slider-track.dragging .slider-text {
+  opacity: 0;
+}
+
+.slider-track.dragging::before {
+  width: var(--progress-width, 0%);
+}
+
+.puzzle-bg {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: #f5f5f5;
+}
+
+.puzzle-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.puzzle-piece {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url('./puzzle_piece.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: grab;
+  transition: transform 0.1s;
+  z-index: 2;
+}
+
+.puzzle-piece:active {
+  cursor: grabbing;
+  transform: scale(1.05);
+}
+
+.puzzle-target {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+}
+
+/* 验证成功状态 */
+.verification-success .puzzle-target {
+  background: rgba(76, 175, 80, 0.2);
+  border-color: #4caf50;
+}
+
+.verification-success .slider-handle {
+  background: #4caf50;
+  color: white;
+}
+
+.verification-success .slider-handle .arrow {
+  color: white;
+}
+
+/* 验证失败状态 */
+.verification-fail .puzzle-target {
+  background: rgba(244, 67, 54, 0.2);
+  border-color: #f44336;
+}
+
+.verification-fail .slider-handle {
+  background: #f44336;
+  color: white;
+}
+
+.verification-fail .slider-handle .arrow {
+  color: white;
+}
+
